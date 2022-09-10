@@ -1,0 +1,129 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, u, i, center,
+dl, dt, dd, ol, ul, li,p,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+    background-color: #ececec;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: rgb(224, 224, 224) solid 1px;
+}
+
+.ig{
+    align-items: center;
+    font-size: 25px;
+}
+
+#logo{
+    width: 20vmin;
+    padding-top: 9px;
+    
+}
+
+.icons{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    align-items: center;
+}
+
+.lupita{
+    padding: 20px;
+}
+
+button{
+    width: 22vmax;
+    height: 6vmin;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 17px;
+    color: rgb(116, 116, 116);
+    border: none;
+    border-radius: 10px;
+}
+
+.perfil{
+    padding: 20px;
+}
+
+#fotitop{
+    border-radius: 50%;
+    width: 35px;
+}
+
+#historias{
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    width: 35em;
+    border: rgb(224, 224, 224) solid 1px;
+    margin-left: 17%;
+    margin-top: 19px; 
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.stories{
+    border-radius: 50%;
+    width: 60px;
+    border: rgb(177, 33, 243) solid 2px;
+    padding: 2px;
+    margin: auto;
+    height: 60px;
+}
+
+#publicaciones{
+    background-color: rgb(255, 255, 255);
+    width: 35em;
+    margin-left: 17%;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: rgb(224, 224, 224) solid 1px;
+}
+p{
+    font-family: sans-serif; 
+}
+.posts{
+    width: 35em;
+}
+.stories-publi{
+    border-radius: 50%;
+    width: 45px;
+    border: rgb(177, 33, 243) solid 2px;
+    padding: 2px;
+    margin: auto;
+    height: 45px;
+    margin: 7px;
+}
+#user{
+    position: relative;bottom: 3rem; left: 4.3rem;
+    padding: 0;
+}
+section{
+    position: relative; left: 1039px;
+}
